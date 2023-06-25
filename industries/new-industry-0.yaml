@@ -1,0 +1,31 @@
+available: false
+callbacks: ''
+cargoAcceptance:
+- NEWC
+cargoProduction:
+- NEWC
+colour: 1
+fundCostMultiplier: 0
+id: 0
+layout:
+- - - 0
+name: 'New industry #0'
+placement: anywhere
+probabilityInGame: 30
+probabilityMapGen: 30
+prospectChance: 0
+tiles:
+- sprites:
+  - alwaysDraw: true
+    drawType: recolour
+    sprite:
+      filename: industries/new-industry-0/2.png
+      left: -31
+      top: 0
+  - alwaysDraw: false
+    drawType: recolour
+    sprite:
+      filename: industries/new-industry-0/1.png
+      left: -31
+      top: 0
+type: primary
